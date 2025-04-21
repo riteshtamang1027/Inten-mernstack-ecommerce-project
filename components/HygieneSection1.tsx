@@ -5,7 +5,7 @@ import { FaBoxTissue } from "react-icons/fa";
 
 export default function HygieneSection1() {
   return (
-    <div className="px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24 py-12 space-y-16 bg-slate-50 border-t border-purple-600 lg:flex gap-4">
+    <div className="px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24 py-12 space-y-16  border-t border-purple-600 lg:flex gap-4">
       {/* Left side */}
 
       <div className="lg:w-1/2 space-y-8 ">
