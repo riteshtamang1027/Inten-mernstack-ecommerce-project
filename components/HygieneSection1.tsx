@@ -1,11 +1,11 @@
 import { Baby, CircleCheckBig, Droplet, Layers, Shield } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { FaBoxTissue } from "react-icons/fa";
 
 export default function HygieneSection1() {
   return (
     <div className="px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24 py-12 space-y-16 bg-slate-50 border-t border-purple-600 lg:flex gap-4">
-     
       {/* Left side */}
 
       <div className="lg:w-1/2 space-y-8 ">
@@ -44,7 +44,7 @@ export default function HygieneSection1() {
               strokeWidth={1.5}
               className="text-purple-700"
             />
-            <p className="font-semibold opacity-80">
+            <p className="font-semibold opacity-80 text-sm">
               No 1 in Personal hygienic
             </p>
           </div>
@@ -59,12 +59,8 @@ export default function HygieneSection1() {
         </div>
 
         <div className=" bg-white rounded-lg border p-4 flex items-center justify-end w-max gap-2">
-          <CircleCheckBig
-            size={28}
-            strokeWidth={1.5}
-            className="text-purple-700"
-          />
-          <p className="font-semibold opacity-80">No 1 in Personal hygienic</p>
+          <FaBoxTissue size={20} className="text-purple-800" />
+          <p className="font-semibold opacity-80 text-sm">Nepal's No.1 Hygiene Brand</p>
         </div>
       </div>
     </div>
