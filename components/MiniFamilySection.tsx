@@ -7,7 +7,7 @@ export default function MiniFamilySection() {
 
            {/* header section */}
       <div className="text-center space-y-3 xl:px-64 lg:px-48 md:px-28 sm:px-18 ">
-        <p className="md:text-4xl font-semibold text-2xl bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text leading-12">
+        <p className="md:text-4xl font-semibold text-2xl bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text md:leading-12">
         Introducing our latest addition to the Minime family - the Minime 360!
         </p>
         <p className="md:text-lg opacity-60 ">
