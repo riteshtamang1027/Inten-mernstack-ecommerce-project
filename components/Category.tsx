@@ -39,11 +39,11 @@ export default function Category() {
           {categories.map((item, index) => (
             <CarouselItem key={index} className="pl-1 sm:basis-1/2  lg:basis-1/3 xl:basis-1/4">
               <div className="p-4 flex items-center justify-center">
-                <Card className="max-w-xs rounded-2xl overflow-hidden bg-gradient-to-br from-purple-200 to-pink-200 shadow-sm cursor-pointer">
+                <Card className="max-w-xs rounded-2xl overflow-hidden group bg-gradient-to-br from-purple-200 to-pink-200 shadow-sm cursor-pointer">
                   <CardContent className=" space-y-4  h-88   relative p-4  ">
                     <div className="  w-full border bg-white  overflow-hidden rounded-xl ">
                       <Image
-                        className="rounded-xl w-88 hover:scale-110 duration-500 cursor-pointer  h-62 object-cover  top-4  "
+                        className="rounded-xl w-88 group-hover:scale-110 duration-400 cursor-pointer  h-62 object-cover  top-4  "
                         src={item.image}
                         alt=""
                         width={600}
@@ -52,9 +52,9 @@ export default function Category() {
                     </div>
 
                     <div className="space-y-1">
-                      <p className="text-lg font-semibold opacity-90">{item.name} </p>
-                      <p className="flex items-center hover:text-purple-500 duration-400 gap-1">
-                        View Category <ArrowRight size={16} strokeWidth={1.5} />
+                      <p className="text-lg font-semibold opacity-90 group-hover:translate-x-2 duration-400">{item.name} </p>
+                      <p className="flex items-center group-hover:text-purple-500 duration-400 gap-1">
+                        View Category <ArrowRight className=" group-hover:translate-x-1 mt-1 duration-400" size={16} strokeWidth={1.5} />
                       </p>
                     </div>
                   </CardContent>
