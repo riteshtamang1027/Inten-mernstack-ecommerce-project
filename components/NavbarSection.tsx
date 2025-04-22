@@ -20,13 +20,13 @@ export default function NavbarSection() {
         <div className="flex absolute top-0 h-18 items-center justify-between px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24  py-4 gap-4 ">
           {/* left*/}
           <div className="lg:w-1/6 w-full   flex items-center justify-between gap-4 ">
-            <Image
+           <Link href={"/"}> <Image
               className="w-12 h-12 object-cover"
               src={"/logo.png"}
               alt=""
               width={500}
               height={500}
-            />
+            /></Link>
             <Image
               className="w-20  h-12  object-cover "
               src={"/logo2.png"}

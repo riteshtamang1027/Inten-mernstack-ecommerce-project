@@ -1,3 +1,4 @@
+import HeroSection from "@/components/about/HeroSection";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
@@ -37,7 +38,9 @@ export default function AboutPage() {
             promise.
           </p>
         </div>
+        
       </div>
+      <HeroSection/>
 
       {/* body  Header section */}
       <div className="text-center space-y-1 xl:px-74 lg:px-52 md:px-32 sm:px-22 ">

@@ -11,16 +11,16 @@ export default function FooterSection() {
         
   {/* Logo */}
         <div className="flex items-center  justify-center">
-        <div className=" bg-purple-700 p-2 rounded-full w-max  ">
+        <Link href={"/"} className=" bg-purple-800 p-4 rounded-full w-max  ">
         
         <Image
-          className="w-18 h-18"
-          src={"/footerlogo.png"}
+          className="w-16 h-16"
+          src={"/logo.png"}
           alt=""
           width={500}
           height={500}
         />
-      </div>
+      </Link>
 
         </div>
         
