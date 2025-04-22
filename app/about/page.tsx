@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className=" bg-gradient-to-r from-pink-50 to-purple-50 md:px-12 px-8 py-4 md:py-8 rounded-xl">
           <p className="sm:text-lg text-sm  font-semibold opacity-80 tracking-wide">
             At Softy Hygiene, we believe that care begins with comfort,
-            cleanliness, and trust. As one of Nepal's largest private-label
+            cleanliness, and trust. As one of Nepal&#39;s largest private-label
             manufacturers of personal hygiene products—including baby wipes,
             diapers, sanitary napkins, and tissues—we are committed to creating
             reliable, high-quality essentials for women and babies.
@@ -31,9 +31,9 @@ export default function AboutPage() {
           <p className="sm:text-lg text-sm font-semibold opacity-80 tracking-wide">
             At Softy Hygiene, we With a focus on innovation, affordability, and
             well-being, our products are thoughtfully designed to support
-            safety, hygiene, and everyday confidence. Whether it's a mother
+            safety, hygiene, and everyday confidence. Whether it&#39;s a mother
             caring for her child or a woman navigating her day, Softy is here
-            every step of the way—because hygiene isn't just a product, it's a
+            every step of the way—because hygiene isn&#39;t just a product, it&#39;s a
             promise.
           </p>
         </div>
