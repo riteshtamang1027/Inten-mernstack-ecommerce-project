@@ -1,7 +1,7 @@
 import SingleCategoryCard from '@/components/SingleCategoryCard'
 import React from 'react'
 
-export default function page() {
+export default function CategoryPage() {
   return (
     
       
@@ -17,6 +17,8 @@ export default function page() {
 Explore our wide range of categories and find the perfect one for your needs
 </p>
 </div>
+
+
 <SingleCategoryCard/>
 </div>
     
