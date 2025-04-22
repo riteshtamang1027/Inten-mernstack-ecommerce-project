@@ -28,13 +28,14 @@ export default function DiscoverSection() {
             >
               <item.icon className={`w-6 h-6 ${item.iconColor}`} />
             </div>
-            <h3 className="text-xl hover:text-purple-700 font-semibold text-gray-800 mb-2">
+            <p className="text-xl hover:text-purple-700 font-semibold text-gray-800 mb-2">
               {item.title}
-            </h3>
+            </p>
             <p className="text-gray-600">{item.description}</p>
           </div>
         ))}
       </div>
+
     </div>
   );
 }

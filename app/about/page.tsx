@@ -1,4 +1,6 @@
+import ComprehensiveHygiene from "@/components/about/ComprehensiveHygiene";
 import HeroSection from "@/components/about/HeroSection";
+import ManufacturingSection from "@/components/about/ManufacturingSection";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
@@ -34,13 +36,13 @@ export default function AboutPage() {
             well-being, our products are thoughtfully designed to support
             safety, hygiene, and everyday confidence. Whether it&#39;s a mother
             caring for her child or a woman navigating her day, Softy is here
-            every step of the way—because hygiene isn&#39;t just a product, it&#39;s a
-            promise.
+            every step of the way—because hygiene isn&#39;t just a product,
+            it&#39;s a promise.
           </p>
         </div>
-        
       </div>
-      <HeroSection/>
+
+      <HeroSection />
 
       {/* body  Header section */}
       <div className="text-center space-y-1 xl:px-74 lg:px-52 md:px-32 sm:px-22 ">
@@ -55,6 +57,26 @@ export default function AboutPage() {
           designed with care and precision for ultimate comfort and protection.
         </p>
       </div>
+
+      <ComprehensiveHygiene />
+
+
+
+       {/* body  Header section */}
+       <div className="text-center space-y-1 xl:px-74 lg:px-52 md:px-32 sm:px-22 ">
+        <p className="bg-gradient-to-t  from-purple-700 to-pink-700 text-transparent bg-clip-text font-semibold text-lg">
+        Our Process
+        </p>
+        <p className="md:text-4xl font-semibold text-2xl bg-gradient-to-r md:h-12 from-purple-600 to-pink-500 text-transparent bg-clip-text">
+        Manufacturing Excellence
+        </p>
+        <p className="md:text-lg opacity-70 ">
+        Our state-of-the-art manufacturing facilities ensure the highest quality standards for all our hygiene products.
+        </p>
+      </div>
+      <ManufacturingSection/>
+
+
     </div>
   );
 }
