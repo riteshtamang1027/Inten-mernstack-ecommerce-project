@@ -50,7 +50,7 @@ export default function ComprehensiveHygiene() {
           <div className=" space-y-2">
             <p className="text-xl font-semibold opacity-90"> Baby Care</p>
             <p className="opacity-60">
-            Our diapers and baby wipes are gentle on baby's skin while providing superior absorption and cleanliness.
+            Our diapers and baby wipes are gentle on baby&#39;s skin while providing superior absorption and cleanliness.
             </p>
           </div>
         </div>
