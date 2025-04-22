@@ -27,3 +27,4 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/HygieneSection1.tsx"],
   "exclude": ["node_modules"]
 }
+

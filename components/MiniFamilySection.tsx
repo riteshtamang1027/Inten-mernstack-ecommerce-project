@@ -19,6 +19,7 @@ export default function MiniFamilySection() {
         <Image className='rounded-2xl xl:w-100 xl:h-100  object-cover' src={"/heroImage/img7.png"} alt='' width={1000} height={1000}/>
         <Image className='rounded-2xl xl:w-100 xl:h-100 object-cover' src={"/heroImage/img8.jpg"} alt='' width={1000} height={1000}/>
         <Image className='rounded-2xl xl:w-100 xl:h-100 object-cover' src={"/heroImage/img9.jpg"} alt='' width={1000} height={1000}/>
+        <Image className='rounded-2xl xl:w-100 xl:h-100 object-cover flex lg:hidden' src={"/heroImage/img10.jpg"} alt='' width={1000} height={1000}/>
       </div>
       
     </div>

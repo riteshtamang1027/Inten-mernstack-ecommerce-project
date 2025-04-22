@@ -1,4 +1,5 @@
 import Category from '@/components/Category'
+import Customers from '@/components/Customers'
 import DiscoverSection from '@/components/DiscoverSection'
 import { HeroSection } from '@/components/HeroSection'
 import HygieneSection1 from '@/components/HygieneSection1'
@@ -16,6 +17,7 @@ export default function HomePage() {
     <HygieneSection1/>
     <HygieneSection2/>
     <MiniFamilySection/>
+    <Customers/>
 
   </div>
    
