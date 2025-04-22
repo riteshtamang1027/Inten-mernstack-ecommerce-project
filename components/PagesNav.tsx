@@ -11,9 +11,9 @@ export default function PagesNav() {
   if (pathname === "/") return null;
 
   return (
-    <div>
+    <div className="lg:-mt-12">
       <Image
-        className="w-full object-cover"
+        className="w-full object-cover lg:h-88"
         src="/heroImage/img4.png"
         alt="Page Banner"
         width={1000}

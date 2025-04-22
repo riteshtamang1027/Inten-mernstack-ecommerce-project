@@ -1,4 +1,4 @@
-import { Sparkles } from "lucide-react";
+import { Quote, Sparkles } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -13,7 +13,7 @@ export default function Customers() {
         <div className="flex items-center  justify-between gap-4">
           <Sparkles className="text-pink-600 w-18" />{" "}
           <p className="md:text-lg opacity-60 ">
-            Don't just take our word for it. Here's what our customers have to
+            Don&#39;t just take our word for it. Here&#39;s what our customers have to
             say about us.
           </p>{" "}
           <Sparkles className="text-purple-600 w-18" />
@@ -43,7 +43,7 @@ export default function Customers() {
           </div>
           <p className="text-gray-600">{item.text}</p>
           <div className="absolute text-pink-300 text-4xl font-serif bottom-2 right-4">
-            "
+          <Quote />
           </div>
         </div>
       ))}

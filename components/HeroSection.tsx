@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import { useEffect, useState } from "react";
 
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -14,24 +13,12 @@ import {
 import Image from "next/image";
 
 export function HeroSection() {
-  const [current, setCurrent] = useState(0);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrent((prev) => (prev + 1) % Images.length);
-  //   }, 3000); // autoplay every 3 seconds
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
+  
+  
   return (
     <Carousel>
       <CarouselContent
-      // style={{
-      //   transform: `translateX(-${current * 100}%)`,
-      //   transition: "transform 0.6s ease-in-out",
-      //   display: "flex",
-      // }}
+     
       >
         {Images.map((item, index) => (
           <CarouselItem key={index} className="w-full ">

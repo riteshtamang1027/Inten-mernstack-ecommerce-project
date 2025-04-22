@@ -117,7 +117,7 @@ export default function FooterSection() {
             <div className="space-y-6">
               <p className="font-semibold">Company</p>
               <div className="space-y-4">
-                <Link href={"/"} className="text-sm flex items-center  group">
+                <Link href={"/about"} className="text-sm flex items-center  group">
                   About{" "}
                   <ArrowUpRight
                     size={16} strokeWidth={1.5}
@@ -125,7 +125,7 @@ export default function FooterSection() {
                   />
                 </Link>
 
-                <Link href={"/category"} className="text-sm flex items-center  group">
+                <Link href={"/contact"} className="text-sm flex items-center  group">
                   Contact{" "}
                   <ArrowUpRight
                     size={16} strokeWidth={1.5}
@@ -134,8 +134,8 @@ export default function FooterSection() {
                 </Link>
 
 
-                <Link href={"/product"} className="text-sm flex items-center  group">
-                  Dear Locator{" "}
+                <Link href={"/dealerLocator"} className="text-sm flex items-center  group">
+                  Dealer Locator{" "}
                   <ArrowUpRight
                     size={16} strokeWidth={1.5}
                     className="transition-transform duration-300 group-hover:rotate-45  mt-1 group-hover:translate-x-1"

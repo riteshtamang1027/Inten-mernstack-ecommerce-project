@@ -10,7 +10,7 @@ export default function HygieneSection1() {
 
       <div className="lg:w-1/2 space-y-8 ">
         <p className="font-semibold  bg-gradient-to-r  from-purple-600 to-pink-500 text-transparent bg-clip-text">
-          Nepal's No.1 Hygiene Brand
+          Nepal&#39;s No.1 Hygiene Brand
         </p>
         <div className="space-y-4">
           <p className="md:text-4xl font-semibold text-2xl bg-gradient-to-r md:h-12 from-purple-600 to-pink-500 text-transparent bg-clip-text">
@@ -60,7 +60,7 @@ export default function HygieneSection1() {
 
         <div className=" bg-white rounded-lg border p-4 flex items-center justify-end w-max gap-2">
           <FaBoxTissue size={20} className="text-purple-800" />
-          <p className="font-semibold opacity-80 text-sm">Nepal's No.1 Hygiene Brand</p>
+          <p className="font-semibold opacity-80 text-sm">Nepal&#39;s No.1 Hygiene Brand</p>
         </div>
       </div>
     </div>

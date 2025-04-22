@@ -1,17 +1,10 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <div className="px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24 py-12 space-y-8">
+    <div className="px-4 w-full sm:px-8 md:px-16 lg:px-20 xl:px-24 py-12 space-y-16">
       {/* Header section */}
       <div className="text-center space-y-1 xl:px-74 lg:px-52 md:px-32 sm:px-22 ">
         <p className="md:text-4xl font-semibold text-2xl bg-gradient-to-r md:h-12 from-purple-600 to-pink-500 text-transparent bg-clip-text">
@@ -22,7 +15,7 @@ export default function ContactPage() {
         </p>
       </div>
 
-      <div className=" rounded-2xl w-full  bg-gradient-to-br from-purple-200 to-pink-200 shadow-sm   px-6 py-4">
+      <div className=" rounded-2xl w-full  bg-gradient-to-br from-purple-200 to-pink-200 shadow-sm   p-6">
         <div className="bg-white w-full px-6 py-4 rounded-2xl space-y-6">
           <p className="bg-gradient-to-t  from-purple-700 to-pink-700 text-transparent bg-clip-text font-semibold text-lg">
             Contact Us
@@ -48,7 +41,10 @@ export default function ContactPage() {
                 <p className="text-xl font-semibold opacity-80">{item.title}</p>
                 <div className="flex items-center gap-2 ">
                   <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-full p-1">
-                    <item.icon className="text-white cursor-pointer" size={18} />
+                    <item.icon
+                      className="text-white cursor-pointer"
+                      size={18}
+                    />
                   </div>
                   <p className="opacity-70 text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-600 transition-all duration-300 hover:from-purple-600 hover:to-pink-700 cursor-pointer">
                     {item.text}
@@ -67,7 +63,7 @@ export default function ContactPage() {
             ></iframe>
           </div>
 
-          
+
         </div>
       </div>
     </div>

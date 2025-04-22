@@ -47,7 +47,7 @@ export default function HygieneSection2() {
             <div className=" absolute right-0 -bottom-8 bg-orange-200  rounded-lg border p-4 flex items-center justify-end w-max gap-2">
               <FaBoxTissue size={20} className="text-purple-700" />
               <p className="font-semibold opacity-80 text-sm">
-                Nepal's No.1 Hygiene Brand
+                Nepal&#39;s No.1 Hygiene Brand
               </p>
             </div>
           </div>
