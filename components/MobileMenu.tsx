@@ -17,7 +17,7 @@ export default function MobileMenu() {
       <SheetTrigger className="text-white flex lg:hidden w-1/2 justify-end ">
         <AlignJustify size={28} strokeWidth={1.5} />
       </SheetTrigger>
-      <SheetContent className="bg-purple-800 text-white">
+      <SheetContent className="bg-gradient-to-t to-purple-600 from-pink-600  text-white">
         <SheetHeader className="space-y-8">
           <SheetTitle className="text-white text-lg">Mobile Menu</SheetTitle>
           <SheetDescription className="text-white flex  flex-col  gap-8 ">
